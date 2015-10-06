@@ -213,7 +213,7 @@ a:before, a:after {
     padding: 35px 0 70px 0;
     max-height: 500px;
     display: table;
-    background-position: center center;
+    background-position: top center;
     background-attachment: fixed;
     z-index: 999;
 
@@ -241,17 +241,21 @@ a:before, a:after {
         font-size: 20px;
     }
 
+    .divider a {
+        color: #FFFFFF;
+    }
+
 /* Background images for each divider can be fitted here, for demo purposes I set all images to the same one. Change it to youre likings */
 
-.divider-bg-1 { background-image: url(../img/bg.jpg); }
+.divider-bg-1 { background-image: url(../img/bg3.jpg); }
 
-.divider-bg-2 { background-image: url(../img/bg.jpg); }
+.divider-bg-2 { background-image: url(../img/bg3.jpg); }
 
-.divider-bg-3 { background-image: url(../img/bg.jpg); }
+.divider-bg-3 { background-image: url(../img/bg3.jpg); }
 
-.divider-bg-4 { background-image: url(../img/bg.jpg); }
+.divider-bg-4 { background-image: url(../img/bg3.jpg); }
 
-.divider-bg-5 { background-image: url(../img/bg.jpg); } /* 5 is used for footer section */
+.divider-bg-5 { background-image: url(../img/bg3.jpg); } /* 5 is used for footer section */
 
 
 
@@ -324,9 +328,9 @@ a:before, a:after {
 \*------------------------------------*/
 
 .header-wrap {
-    background: url(../img/bg.jpg) no-repeat center top;
+    background: url(../img/bg3.jpg) no-repeat center top;
     padding-top: 140px;
-    margin-top: -50px;
+    /*margin-top: -50px;*/
     min-height: 750px;
 	width: 100%;
     
